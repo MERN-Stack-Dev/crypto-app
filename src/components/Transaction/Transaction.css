@@ -1,0 +1,34 @@
+.transaction {
+    background-color: var(--black-shade-1);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+  }
+
+  .transaction-date{
+    display: grid;
+  }
+
+  .grey{
+    color: darkgray;
+  }
+  
+  .upper-heading{
+   display: flex;
+   justify-content: space-between;
+}
+
+.upper-heading span{
+  /* margin-left: 28rem; */
+  height: 1.8rem;
+  margin-top: 1.8rem;
+  text-align: right;
+}

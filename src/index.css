@@ -1,5 +1,31 @@
+
+
+:root{
+  --primary-color: #ffff;
+  --black-shade-1:#201F21;
+  --black-shade-2:#111111;
+  --purple-shade-1:#7E6CD3;
+  --green-shade-1:#233428;
+  --green-shade-2:#2C7F44;
+  --red-shade-1:#ff0000;
+  --red-shade-2:#3C1E20;
+
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+}
+
 body {
   margin: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--primary-color);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

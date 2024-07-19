@@ -1,0 +1,203 @@
+*{
+    
+    margin: 0;
+    padding:0;
+    color: white;
+    
+}
+
+
+.abc{
+    position: relative;
+    background: linear-gradient(to bottom,  var(--black-shade-2), #383448);
+}
+.heading{
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 1.25rem ;
+}
+.heading img {
+    display: grid;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+
+
+.content{
+    display: inline;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0.5rem;
+
+}
+
+.section{
+    background: linear-gradient(to bottom, black, rgb(18, 18, 18));
+    width: 40rem;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    overflow: auto;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+
+}
+
+
+
+.login{
+    display: inline;
+    padding: 0.5rem;
+    /* margin: 5rem; */
+    justify-content:center;
+    align-items:center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.options{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 5rem;
+}
+
+.options:hover{
+    cursor: pointer;
+}
+
+
+
+
+.google{
+    border:1px solid grey;
+    padding:1rem;
+    border-radius: 2rem;
+    width: 20rem;
+    text-align: center;
+    height: 1.25rem;
+    margin-bottom: 7px;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.google:hover{
+    border-color: white;
+}
+
+
+
+.line{
+    width: 100%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+
+
+.email, .pass{
+   border: 1px solid grey;
+   width: 70%;
+   background-color: transparent;
+   height: 2.5rem;
+   width: 20rem;
+   margin: 0.5rem;
+   appearance: none;
+    padding-left: 1rem;
+    color: white;
+
+}
+
+.b{
+    color: black;
+    background-color: var(--purple-shade-1);
+    text-align: center;
+    border-radius: 20rem;
+    width:90%;
+    height: 2.5rem;
+    font-weight: 700;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: none;
+}
+
+.b:hover{
+    transform: scale(1.05);
+}
+
+.forgot{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-top: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+
+}
+
+.forgot-txt:hover{
+    color: var(--purple-shade-1);
+}
+
+.account{
+    margin-top:3rem;
+
+}
+
+.a-txt{
+    font-weight: 700;
+}
+
+.account > span{
+    color:grey;
+    font-weight: 500;
+}
+
+.a-txt:hover{
+    color:var(--purple-shade-1);
+}
+
+.copyrightClaim{
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    background-color: rgb(18, 18, 18);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.txt, u{
+    color: grey;
+    font-size: 0.75rem;
+}
