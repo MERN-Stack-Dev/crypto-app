@@ -1,6 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 import { Home, HomeContainer, Login } from './containers';
-import './App.css';
 
 function App() {
   return (
