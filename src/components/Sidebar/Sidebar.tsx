@@ -24,8 +24,8 @@ function Sidebar() {
     <>
       {
         hidden && (
-          <button onClick={handleNavToggle} className=' toggle-btn2'>
-            <IoIosArrowDroprightCircle style={{width: "2rem"}} />
+          <button onClick={handleNavToggle} className='toggle-btn2'>
+            <IoIosArrowDroprightCircle style={{width: "2rem", height: "2rem"}} />
           </button>
         )
       }
@@ -33,7 +33,7 @@ function Sidebar() {
         <div className="sidebar-header">
           <h2>krypto<span className='link'>Link</span></h2>
           <button onClick={handleNavToggle} className='btn-left'>
-            <IoIosArrowDropleftCircle />
+            <IoIosArrowDropleftCircle style={{width: "2rem", height: "2rem"}} />
           </button>
         </div>
         <div className="sidebar-menu">

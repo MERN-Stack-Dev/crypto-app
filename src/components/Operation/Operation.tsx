@@ -1,23 +1,28 @@
 import React from 'react';
 import './Operation.css';
 
-const Operation: React.FC = () => {
+function Operation() {
   return (
     <div className="operation">
-      <div className="heading-op"><h2>Operation</h2>
+      <div className="heading-op">
+        
+        <h2 className='heading-operation-header'>Operation</h2>
+        
         <div className="trading">
           <div className="buy">Buy</div>
           <div className="sell">Sell</div>
           <div className="exchange">Exchange</div>
-        </div></div>
+        </div>
       
+      </div>
+
       <div className="operation-input">
         <div>You pay</div>
         <div className="input">
           <span className='currency'>UST</span>
           <span>$321</span>
         </div>
-        
+
       </div>
       <div className="operation-input">
         <div>You get</div>
