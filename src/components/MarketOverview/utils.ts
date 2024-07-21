@@ -1,4 +1,6 @@
-export const data: any[] = [
+import { Options } from "highcharts"
+
+const data: any[] = [
   [
     1658323800000,
     153.04
@@ -2012,3 +2014,67 @@ export const data: any[] = [
     224.31
   ]
 ]
+
+export const options = {
+  rangeSelector: {
+    selected: 1
+  },
+
+  chart: {
+    backgroundColor: "#201F21",
+    style: {
+      // color: "#fff"
+    }
+  },
+
+  title: {
+    text: 'AAPL Stock Price',
+    style: {
+      color: '#fff',
+    }
+  },
+  xAxis: {
+    // gridLineWidth: 1,
+    // lineColor: '#000',
+    // tickColor: '#000',
+    labels: {
+      style: {
+        color: '#fff',
+      }
+    },
+    title: {
+      style: {
+        color: '#fff',
+        fontWeight: 'bold',
+        fontSize: '12px',
+      }
+    }
+  },
+  yAxis: {
+    // minorTickInterval: 'auto',
+    // lineColor: '#000',
+    // lineWidth: 1,
+    // tickWidth: 1,
+    // tickColor: '#000',
+    labels: {
+      style: {
+        color: '#fff',
+        font: '11px Trebuchet MS, Verdana, sans-serif'
+      }
+    },
+    title: {
+      style: {
+        color: '#fff',
+        fontSize: '18px',
+      }
+    }
+  },
+
+  series: [{
+    name: 'AAPL',
+    data,
+    tooltip: {
+      valueDecimals: 2
+    }
+  }]
+}

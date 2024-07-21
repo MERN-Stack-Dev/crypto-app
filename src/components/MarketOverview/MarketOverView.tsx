@@ -2,7 +2,7 @@ import HighchartsReact from "highcharts-react-official";
 import Highcharts from "highcharts";
 import React, { useEffect } from 'react';
 import './MarketOverView.css';
-import { data } from "./utils";
+import { options } from "./utils";
 
 function MarketOverview() {
 
@@ -13,23 +13,7 @@ function MarketOverview() {
         {/* Chart content goes here */}
         <HighchartsReact
           highcharts={Highcharts}
-          options={{
-            rangeSelector: {
-              selected: 1
-            },
-
-            title: {
-              text: 'AAPL Stock Price'
-            },
-
-            series: [{
-              name: 'AAPL',
-              data,
-              tooltip: {
-                valueDecimals: 2
-              }
-            }]
-          }}
+          options={options}
           containerProps={{ className: "highchart-container" }}
         />
       </div>
