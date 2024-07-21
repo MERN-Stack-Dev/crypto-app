@@ -8,7 +8,7 @@ function HomeContainer() {
   return (
     <div className="home-container">
       <Sidebar />
-      <div className="content-container">
+      <div className="outlet-container">
         <Header />
         <Outlet />
       </div>

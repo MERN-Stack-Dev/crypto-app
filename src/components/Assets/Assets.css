@@ -1,11 +1,9 @@
 .assets-container {
-  
+  width: 25%;  
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 5rem;
-  width: 20rem;
   /* margin-left: 2rem; */
- height: 20rem;
   /* max-width: 600px; */
   color: #fff;
 }

@@ -1,5 +1,5 @@
 import { Assets, MarketOverView, Operation, Transaction } from 'components';
-import React from 'react'
+import React from 'react';
 
 function Home() {
   return (

@@ -1,60 +1,60 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: var(--black-shade-2);
-    color: white;
-    height: 5rem;
-  }
-
-  .search-cont{
-    display: flex;
-    align-items: center;
-   
-  }
-  .search-baar{
-    background-color: var(--black-shade-1);
-    border: none;
-    border-color: var(--black-shade-1) ;
-    color: white;
-    width: 20rem;
-    height: 1.5rem;
-  }
-  .search-bar {
-    margin-left: 12rem;
-    margin-right: 3rem;
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-    background-color: var(--black-shade-1);
-    width: 20rem;
-    height: 1.5rem;
-    color: white;
-  }
-  textarea:focus, input:focus{
-    outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--black-shade-2);
+  color: white;
+  /* height: 5rem; */
 }
-    input::placeholder {
-      color: white;
-      /* Change to your desired color */
-      opacity: 1;
-      /* Ensure the placeholder is fully opaque */
-    }
-  
-  .profile {
-    display: flex;
-    align-items: center;
-  }
-  
-  .profile-name {
-    margin-right: 20px;
-    font-size: medium;
-  }
-  .profile-icon{
-    border-radius: 50%;
-    background-color: yellow;
-    padding: 2px;
-    margin: 1.5rem;
-  }
-  
+
+.search-cont {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+.search-baar {
+  background-color: var(--black-shade-1);
+  border: none;
+  border-color: var(--black-shade-1);
+  color: white;
+  width: 20rem;
+  height: 1.5rem;
+  padding-left: 1rem;
+}
+.search-bar {
+  margin-left: 12rem;
+  margin-right: 3rem;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--black-shade-1);
+  width: 20rem;
+  height: 1.5rem;
+  color: white;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: white;
+  /* Change to your desired color */
+  opacity: 1;
+  /* Ensure the placeholder is fully opaque */
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-name {
+  font-size: medium;
+}
+.profile-icon {
+  border-radius: 50%;
+  background-color: yellow;
+  padding: 2px;
+  margin: 8px;
+}
