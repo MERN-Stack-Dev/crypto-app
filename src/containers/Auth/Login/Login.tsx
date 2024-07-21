@@ -6,19 +6,18 @@ import { FaFacebook } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import './Login.css';
 
-const Login: React.FC = () => {
+function Login() {
   const navigate = useNavigate();
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    
     navigate('/home');
   };
 
   return (
     <div className="abc">
       <div className="heading">
-      <h2>krypto<span className='link'>Link</span></h2>
+        <h2>krypto<span className='link'>Link</span></h2>
       </div>
 
       <div className="section">
@@ -27,36 +26,36 @@ const Login: React.FC = () => {
         </div>
         <div className="options">
           <div className="google">
-          <div>
-            <FaGoogle />
-          </div>
-          <div>
-            Continue with google
-          </div>
-          </div>
-          <div className="google">
-          <div >
-            <MdEmail />
-          </div>
-          <div>
-            Continue with E-mail
-          </div>
+            <div>
+              <FaGoogle />
+            </div>
+            <div>
+              Continue with google
+            </div>
           </div>
           <div className="google">
-          <div>
-            <FaFacebook />
-          </div>
-          <div>
-            Continue with Facebook   
-          </div>
+            <div >
+              <MdEmail />
+            </div>
+            <div>
+              Continue with E-mail
+            </div>
           </div>
           <div className="google">
-          <div>
-            <FaPhoneAlt />
+            <div>
+              <FaFacebook />
+            </div>
+            <div>
+              Continue with Facebook
+            </div>
           </div>
-          <div>
-            Continue with Phone No
-          </div>
+          <div className="google">
+            <div>
+              <FaPhoneAlt />
+            </div>
+            <div>
+              Continue with Phone No
+            </div>
           </div>
           <br />
           <br />

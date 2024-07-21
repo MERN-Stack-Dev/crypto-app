@@ -1,18 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import { HomeContainer } from './containers';
-import  {Login}  from './components';
+import { Home, HomeContainer, Login } from './containers';
+import './App.css';
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div className="app">
-      <Routes>
+    <Routes>
       <Route path="/" element={<Login />} />
-      <Route path="/home" element={<HomeContainer />} />
-      </Routes>
-    </div>
+      <Route path="/home" element={<HomeContainer />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
   );
 }
 
