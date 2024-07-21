@@ -48,6 +48,8 @@
   }
   .btn-left{
     margin-left: 80px;
+    background: none;
+    padding: 0;
   }
   .menu-item {
     margin-bottom: 10px;

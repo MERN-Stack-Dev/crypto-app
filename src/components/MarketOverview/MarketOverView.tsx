@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import './MarketOverView.css';
 import { data } from "./utils";
 
-const MarketOverview: React.FC = () => {
+function MarketOverview() {
 
   return (
     <div className="market-overview">
