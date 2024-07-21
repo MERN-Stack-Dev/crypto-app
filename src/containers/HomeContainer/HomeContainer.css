@@ -21,8 +21,8 @@
 }
 
 .dashboard-header {
-  display: inline-flex;
-  /* justify-content: space-between; */
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -37,9 +37,8 @@
   /* margin-right: 3rem; */
 }
 
-.total-asset-value {
-  text-align: left;
-  width: 60%;
+.total-asset-value .total-asset-value-text {
+  padding-bottom: 8px;
 }
 .marketoverview-assets {
   display: flex;
